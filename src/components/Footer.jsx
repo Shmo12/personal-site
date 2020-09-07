@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
 // Add spinning icon image here
-import spooch from "images/maple-icon.png"
+import spooch from "images/charlie-icon.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -51,9 +51,11 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
+        {/*
         <Link to="/">
             <Logo />
         </Link>
+        */}
         <FooterAuthor>
             © 2020
             <FooterSpooch className="FooterSpooch" src={spooch} />
