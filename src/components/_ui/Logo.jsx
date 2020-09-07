@@ -1,7 +1,7 @@
 import React from "react";
 
 const Logo = () => (
-    <img src="moopid.png"></img>
+    <img src="src/components/images/moopid.png" alt="moopid-icon"></img>
 );
 
 export default Logo;
