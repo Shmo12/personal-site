@@ -1,5 +1,5 @@
 import React from "react";
-import moopid from "/src/components/images/moopid.png";
+import moopid from "components/images/moopid.png";
 
 //const Logo = () => (
 function Logo (){
