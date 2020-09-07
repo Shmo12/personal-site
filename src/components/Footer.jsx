@@ -51,11 +51,10 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
-        {/*
-        <Link to="/">
+        {/*<Link to="/">*/}
             <Logo />
-        </Link>
-        */}
+        {/*</Link>*/}
+        
         <FooterAuthor>
             © 2020
             <FooterSpooch className="FooterSpooch" src={spooch} />
