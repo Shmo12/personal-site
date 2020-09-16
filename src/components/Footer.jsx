@@ -52,7 +52,7 @@ const FooterSpooch = styled("img")`
 const Footer = () => (
     <FooterContainer>
         {/*<Link to="/">*/}
-            <Logo />
+            <h2>moopid</h2>
         {/*</Link>*/}
         
         <FooterAuthor>
