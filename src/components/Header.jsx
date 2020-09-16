@@ -37,7 +37,7 @@ const HeaderLinks = styled("div")`
         border-bottom: 3px solid transparent;
         font-weight: 600;
         font-size: 0.95em;
-        height: 100%;
+        height: 32%;
         padding-bottom: 1.25em;
         padding-top: 0.25em;
         display: block;
