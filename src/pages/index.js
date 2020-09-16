@@ -9,7 +9,7 @@ import dimensions from "styles/dimensions";
 import Button from "components/_ui/Button";
 import About from "components/About";
 import Layout from "components/Layout";
-import PostCard from "components/PostCard";
+import ProjectCard from "components/ProjectCard";
 
 const Hero = styled("div")`
     padding-top: 2.5em;
@@ -133,7 +133,7 @@ const RenderBody = ({ home, projects, meta }) => (
         </Hero>
         <Section>
             {projects.map((project, i) => (
-                <PostCard
+                <ProjectCard
                     key={i}
                     category={project.node.project_category}
                     title={project.node.project_title}
