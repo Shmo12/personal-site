@@ -44,7 +44,7 @@ const ButtonContainer = styled("button")`
     &.Button--secondary {
         background: ${colors.blue200};
         color: ${colors.blue600};
-        padding: 0.95em 1.8em;
+        padding: 0.95em 1.0em;
         font-size: 0.95rem;
 
         &:hover {

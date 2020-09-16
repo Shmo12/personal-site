@@ -1,6 +1,6 @@
 {
     "liveServer.settings.port": 4500,
-    "liveServer.settings.root": "/src",
+    "liveServer.settings.root": "/personal-site",
     "liveServer.settings.CustomBrowser" : "microsoft-edge",
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
     "liveServer.settings.NoBrowser" : false,
