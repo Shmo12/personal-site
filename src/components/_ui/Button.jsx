@@ -1,4 +1,4 @@
-/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import dimensions from "styles/dimensions";
@@ -67,4 +67,4 @@ class Button extends Component {
     }
 }
 
-export default Button; */
+export default Button;
