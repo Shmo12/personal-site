@@ -53,12 +53,13 @@ const FooterSpooch = styled("img")`
 const Footer = () => (
     <FooterContainer>
         {/*<Link to="/">*/}
-            <h2>moopid</h2>
+            <p>moopid</p>
         {/*</Link>*/}
         
         <FooterAuthor>
             © 2020
-            <FooterSpooch className="FooterSpooch" src={spooch} className="FooterSpooch" src={spooch2} />
+            <FooterSpooch className="FooterSpooch" src={spooch} />
+            <FooterSpooch className="FooterSpooch" src={spooch2} />
         </FooterAuthor>
     </FooterContainer>
 )
