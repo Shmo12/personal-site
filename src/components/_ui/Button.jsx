@@ -16,7 +16,7 @@ const ButtonContainer = styled("button")`
     transition: background 100ms ease-in-out;
 
     @media(max-width:${dimensions.maxwidthMobile}px) {
-        padding: 0.8em 1.8em;
+        padding: 0.8em 1.em;
         font-size: 1em;
     }
 
@@ -30,7 +30,7 @@ const ButtonContainer = styled("button")`
         left: 0;
         top: 0;
         width: 100%;
-        height: 100%;
+        height: 32%;
         background: linear-gradient(135deg, ${colors.pink400} 0%, ${colors.purple400} 100%);
         z-index: -1;
     }
@@ -44,7 +44,7 @@ const ButtonContainer = styled("button")`
     &.Button--secondary {
         background: ${colors.blue200};
         color: ${colors.blue600};
-        padding: 0.95em 1.0em;
+        padding: 0.95em 1.8em;
         font-size: 0.95rem;
 
         &:hover {
